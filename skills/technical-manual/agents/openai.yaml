@@ -1,0 +1,4 @@
+interface:
+  display_name: "Technical Manual"
+  short_description: "Source-grounded manuals with examples and diagrams"
+  default_prompt: "Use $technical-manual to create a detailed manual for this subject, grounded in its specification and source code, with worked examples and diagrams."
