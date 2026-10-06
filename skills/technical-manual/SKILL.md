@@ -26,6 +26,8 @@ Maintain a claim ledger with claim or question, source and revision, exact locat
 
 If sources are inaccessible, narrow the affected claims, request the necessary access only when essential, and explain the resulting limits. Do not manufacture source contents or cite unread pages. When code and a specification disagree, describe conformance and implementation behavior separately.
 
+Keep validity, implementation acceptance, and successful execution distinct. Establish effective configuration through defaults, overrides, wrapper behavior, and change timing. Use evidence-backed producer/consumer matrices when feature support differs from actual use. Follow the detailed standard for representation ambiguities, generated reference tables, and suspected specification defects.
+
 ## Explain using specimens
 
 Choose recurring examples that expose the main mechanism and an important complication. Trace inputs through intermediate structures or states into outputs, connecting each decisive step to the source. Include failure or boundary cases that teach distinct rules.
@@ -33,6 +35,8 @@ Choose recurring examples that expose the main mechanism and an important compli
 Use real execution when available, with pinned setup and retained scripts and captures. Label unexecuted, illustrative, quoted, and calculated output. A simulated provider can exercise a real local subsystem, but the simulation does not verify the external system. Keep failure experiments in isolated fixtures.
 
 Adapt the treatment to the subject: byte-level decoding for formats, entry-point-to-result traces for repositories, and derivations connected to implementation for algorithms. Read the corresponding guidance in the manual standard; omit irrelevant treatments.
+
+For multi-step or durable behavior, trace failures at the actual boundaries, including surviving state, external effects, and uncertain outcomes. Follow ownership and observer dispatch where they affect guarantees. Use controlled changes and typed round trips for mutation-heavy subjects, and account for costs through the layers that actually perform the work.
 
 ## Draft and illustrate
 
@@ -45,6 +49,8 @@ Place citations beside consequential claims and add section-level Sources blocks
 ## Verify and deliver
 
 Audit source-to-claim fit, revision consistency, calculations, units, offsets, code examples, diagram semantics, failure boundaries, and the requested learning goals. Render and inspect a PDF if producing one; otherwise do not claim visual verification.
+
+Check that the reader can diagnose a concrete symptom and predict a counterexample or boundary outcome. Check that configuration targets are not presented as hard guarantees, feature presence is not presented as use, and reference-document coverage is reported accurately.
 
 Prefer the user's requested output directory. Otherwise place generated deliverables in a clearly named local folder without changing the subject repository's source. Preserve the editable manual, diagram sources, and any reproduction scripts, captures, source manifest, and claim ledger actually created. Use the environment's document tools when available; this skill does not require a specific compiler, library, MCP server, or cloud service.
 

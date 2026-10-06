@@ -6,6 +6,8 @@ Use it to learn a GitHub repository, runtime, file format, protocol, algorithm, 
 
 The skill asks the agent to pin source revisions, follow important code paths, distinguish requirements from implementation behavior, and explain mechanisms through concrete specimens. Diagrams support specific claims. Captures, calculations, illustrative output, and unexecuted examples are identified separately. Generic praise and filler are removed.
 
+The [reference-manual audit](docs/reference-manual-audit.md) records a full extracted-text review of 450 pages across the Parquet, GGUF, and Pi Durable manuals, with selected visual inspection. The resulting requirements cover configuration precedence, support versus use, failure boundaries, observer semantics, typed round trips, cross-layer costs, and actionable debugging. They apply where relevant to the subject.
+
 ## Install
 
 With the [Agent Skills CLI](https://github.com/vercel-labs/skills):
